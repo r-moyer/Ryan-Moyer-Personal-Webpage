@@ -1,0 +1,171 @@
+input, select {
+  vertical-align: middle;
+}
+
+body {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background-color: #fffbf0;
+}
+
+.header_img{
+    width: 100%;
+  height: auto;
+  padding: 0 0 0 0;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-size: 3.5vw;
+  color: blue;
+}
+
+.about{
+  color: #ee7a45;
+  padding: 0 0 0 0;
+  margin: 1vw 2vw 2vw 2vw;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-size: 1.25vw;
+}
+
+.row{
+  align-content: center;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-gap: 1vw 1vw;
+  margin: 0vw;
+    display: flex;
+  justify-content: center;
+}
+
+.foot{
+    display: flex;
+  justify-content: center;
+}
+
+.image{
+  width: 27vw;
+  height: auto;
+  padding:1vw;
+  margin: 0 0 0 0;
+  float: left;
+  position: relative;
+  z-index: 0;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background:rgba(72, 135, 237, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-size: 3.5vw;
+  color: white;
+
+}
+
+.overlay:hover{
+  width: 100%;
+  opacity: 1;
+}
+
+
+.image:hover{
+  background-color: blue;
+
+}
+
+.section{
+  padding left:15px;
+  margin left: 15px;
+  text-align: center;
+  align-content: center;
+
+
+}
+
+.contact{
+    width: 27vw;
+  height: auto;
+  padding:1vw;
+  margin: 0 0 0 0;
+  float: left;
+}
+
+body{
+  align-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+h2{
+  padding: 0 0 0 25px;
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-size: 3.5vw;
+  color: blue;
+}
+
+h3{
+  color: #ee7a45;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-size: 2.5vw;
+}
+
+h4{
+  color: #ee7a45;
+  padding: 0 0 0 0;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-size: 1.5vw;
+}
+
+
+p{
+  color: #ee7a45;
+  padding: 0 0 0 0;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-size: 1.5vw;
+}
